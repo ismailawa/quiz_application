@@ -27,7 +27,6 @@ class _FormComponentState extends State<FormComponent> {
               ),
               decoration: InputDecoration(
                 border: OutlineInputBorder(
-                    gapPadding: 10.0,
                     borderRadius: BorderRadius.circular(20.0)),
                 labelText: "Email",
               ),
@@ -53,7 +52,6 @@ class _FormComponentState extends State<FormComponent> {
               ),
               decoration: InputDecoration(
                 border: OutlineInputBorder(
-                    gapPadding: 10.0,
                     borderRadius: BorderRadius.circular(20.0)),
                 labelText: "Password",
               ),
@@ -85,7 +83,7 @@ class _FormComponentState extends State<FormComponent> {
             padding: EdgeInsets.only(top: 18.0),
             child: GestureDetector(
               onTap: () {
-                Navigator.push(context, HomePage());
+                Navigator.pushNamed(context, "/homePage");
               },
               child: Container(
                 decoration: BoxDecoration(
@@ -106,7 +104,6 @@ class _FormComponentState extends State<FormComponent> {
             padding: EdgeInsets.only(top: 0.0),
             child: GestureDetector(
               onTap: () {
-                Navigator.push(context, HomePage());
               },
               child: Container(
                   decoration: BoxDecoration(

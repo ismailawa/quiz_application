@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_application/components/form.dart';
+import 'package:quiz_application/components/gallery.dart';
+import 'package:quiz_application/components/homePage.dart';
+
 
 void main() => runApp(QuizApp());
 
 class QuizApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var routes = <String, WidgetBuilder>{
+        HomePage.routeName: (BuildContext context) => HomePage(),
+        Gallery.routeName: (BuildContext context) => Gallery()
+    };
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Quiz",
       home: Welcome(),
+      routes: routes,
     );
   }
 }
@@ -56,5 +64,6 @@ class Welcome extends StatelessWidget {
             FormComponent()
           ],
         ));
+
   }
 }

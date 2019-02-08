@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Menu extends StatelessWidget {
+
+
   final String imageUrl;
   final String title;
 
@@ -12,7 +14,7 @@ class Menu extends StatelessWidget {
       padding: EdgeInsets.only(top: 20.0, left: 10.0, right: 10.0),
       child: GestureDetector(
         onTap: (){
-          print("nnnnnn");
+          Navigator.pushNamed(context, "/GalleryPage");
         },
         child: Container(
           decoration: BoxDecoration(

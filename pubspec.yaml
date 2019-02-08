@@ -1,6 +1,5 @@
 name: quiz_application
 description: This is quiz application to prepare students of unijos as pre-exams practice
-
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
@@ -44,6 +43,11 @@ flutter:
     - assets/images/friend.png
     - assets/images/gallery.png
     - assets/images/phone.png
+    - assets/images/c1.jpg
+    - assets/images/c2.jpg
+    - assets/images/c3.jpg
+    - assets/images/c4.jpg
+    - assets/images/c5.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 
