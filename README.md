@@ -3,6 +3,10 @@
 This is quiz application to prepare students of unijos as pre-exams practice
 
 ## Modules
+-[Chat module]
+-[Quiz module]
+-[Activities module]
+-[Gallery module]
 
 This project is a starting point for a Flutter application.
 
