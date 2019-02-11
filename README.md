@@ -2,7 +2,7 @@
 
 This is quiz application to prepare students of unijos as pre-exams practice
 
-## Getting Started
+## Modules
 
 This project is a starting point for a Flutter application.
 
