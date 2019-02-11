@@ -5,10 +5,10 @@ This is quiz application to prepare students of unijos as pre-exams practice
 ## Modules
 A few resources to get you started if this is your first Flutter project:
 
-- [Chat:Chat module](https://flutter.io/docs/get-started/codelab)
-- [Quiz:Quiz module](https://flutter.io/docs/get-started/codelab)
-- [Activiries:Activities module](https://flutter.io/docs/get-started/codelab)
-- [Gallery:Gallery module](https://flutter.io/docs/get-started/codelab)
+- [Chat module](https://flutter.io/docs/get-started/codelab)
+- [Quiz module](https://flutter.io/docs/get-started/codelab)
+- [Activities module](https://flutter.io/docs/get-started/codelab)
+- [Gallery module](https://flutter.io/docs/get-started/codelab)
 
 This project is a starting point for a Flutter application.
 
